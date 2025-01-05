@@ -3,4 +3,26 @@ layout: home
 author_profile: true
 classes: wide
 ---
-<!-- DO NOT EDIT THIS PAGE -->
+
+<div class="index-content">
+  <h1>{{ site.title }}</h1>
+  <h2>{{ site.subtitle }}</h2>
+  <p>{{ site.description }}</p>
+</div>
+
+<div class="pi-profile">
+  <h3>Principal Investigator</h3>
+  <img src="{{ site.PI.avatar }}" alt="{{ site.PI.name }}" style="max-width: 150px; border-radius: 50%;">
+  <p><strong>{{ site.PI.name }}</strong></p>
+  <p>{{ site.PI.bio }}</p>
+  <p>Location: {{ site.PI.location }}</p>
+  <ul>
+    {% for link in site.PI.links %}
+      <li>
+        <a href="{{ link.url }}" target="_blank">
+          <i class="{{ link.icon }}"></i> {{ link.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
