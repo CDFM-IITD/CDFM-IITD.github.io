@@ -13,6 +13,8 @@ description: >
 locale: "en-US"
 breadcrumbs: true
 search: true
+header:
+  logo: "/assets/images/cdfm-logo.png" # Update with your image path
 
 # Site Author
 # Site Author
