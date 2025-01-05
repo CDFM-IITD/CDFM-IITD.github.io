@@ -4,9 +4,9 @@ permalink: /
 title: "Something Awesome!"
 ---
 
-## GitHub Page Template
+## CDFM Group
 
-A simple, clean, and responsive theme for your website or blog.
+Welcome to the homepage of the "Computational Design of Functional Materials" research group at the Indian Institute of Technology, Delhi (IIT-D), India. We are part of the Department of Material Science and Engineering (DMSE) and the Department of Chemistry (joint) at IIT Delhi.
 
 GitHub: <https://github.com/monsieurborges/site-template>
 
