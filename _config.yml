@@ -6,17 +6,20 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "CDFM@IIT Delhi"
 subtitle: "Research Group Website"
 name: "Computation Design of Functional Materials"
-description: "Welcome to the homepage of the "Computational Design of Functional Materials" research group at the Indian Institute of Technology, Delhi (IIT-D), India. We are part of the Department of Material Science and Engineering (DMSE) and the Department of Chemistry (joint) at IIT Delhi."
+description: >
+  Welcome to the homepage of the "Computational Design of Functional Materials" research group 
+  at the Indian Institute of Technology, Delhi (IIT-D), India. We are part of the Department of 
+  Material Science and Engineering (DMSE) and the Department of Chemistry (joint) at IIT Delhi.
 locale: "en-US"
 breadcrumbs: true
 search: true
 
 # Site Author
 PI:
-  name   : "Prof. Dibyajyoti Ghosh"
+  name: "Prof. Dibyajyoti Ghosh"
   bio: "Asst. Professor at Dept. of Chemistry & Dept. Material Science and Engg."
-  avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
-  location: Localhost, GitHub
+  avatar: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
+  location: "Localhost, GitHub"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
