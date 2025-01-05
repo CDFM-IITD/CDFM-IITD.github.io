@@ -8,7 +8,7 @@ title: "Computational Design of Functional Materials"
   <div class="hero__content">
     <h1>Welcome to CDFM@IIT Delhi</h1>
     <p>Computational Design of Functional Materials</p>
-    <a href="https://github.com/monsieurborges/site-template" class="btn btn-primary">Learn More</a>
+    <a href="https://github.com/" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 
@@ -31,13 +31,6 @@ At CDFM, we focus on various research areas including:
 - **Machine Learning for Materials Science**
 - **Time-domain DFT for Excited Charge Carrier Dynamics**
 
-Each research theme is explored using high-throughput screening and advanced computational techniques.
-
----
-
-## Team
-
-Our team consists of passionate researchers, faculty, and students from diverse backgrounds in materials science, chemistry, and computational physics.
 
 ---
 
