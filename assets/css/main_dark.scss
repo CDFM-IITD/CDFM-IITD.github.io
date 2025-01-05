@@ -42,3 +42,18 @@ a:active {
   display: inline-block;
   margin: 0 10px;
 }
+
+.masthead__logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo img {
+  max-height: 50px; /* Adjust height as needed */
+  margin-right: 10px; /* Space between logo and title */
+}
+
+.site-title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
