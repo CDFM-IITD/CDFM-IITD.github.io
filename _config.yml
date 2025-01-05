@@ -15,15 +15,19 @@ breadcrumbs: true
 search: true
 
 # Site Author
-PI:
-  name: "Prof. Dibyajyoti Ghosh"
-  bio: "Asst. Professor at Dept. of Chemistry & Dept. Material Science and Engg."
+# Site Author
+author:
+  name: "Your Name"
+  bio: "Your Bio"
   avatar: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
   location: "Localhost, GitHub"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CDFM-IITD"
+      url: "https://github.com/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/"
