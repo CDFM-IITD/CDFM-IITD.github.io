@@ -1,41 +1,23 @@
 ---
-layout: home
+layout: single
 permalink: /
-title: "Computational Design of Functional Materials"
+title: "CDFM@IIT Delhi"
+author_profile: true
+classes: wide
+header:
+  overlay_image: "/assets/images/materials.webp"
+  overlay_filter: 0.4
 ---
 
-<div class="hero">
-  <div class="hero__content">
-    <h1>Welcome to CDFM@IIT Delhi</h1>
-    <p>Computational Design of Functional Materials</p>
-    <a href="https://github.com/" class="btn btn-primary">Learn More</a>
-  </div>
-</div>
+## Welcome
 
-## About the Group
+This site hosts **supplementary data, simulation outputs, and supporting materials** for publications from the Computational Design of Functional Materials (CDFM) group at IIT Delhi.
 
-Welcome to the homepage of the "Computational Design of Functional Materials" research group at the Indian Institute of Technology, Delhi (IIT-D), India. We are part of the Department of Material Science and Engineering (DMSE) and the Department of Chemistry (joint) at IIT Delhi.
-
-### Our Mission
-
-Our mission is to advance the field of materials design by leveraging computational tools and methodologies to predict, discover, and understand new functional materials for various applications.
+For the main lab website, visit:
+[**sites.google.com/view/dibyajyoti-ghosh/home**](https://sites.google.com/view/dibyajyoti-ghosh/home){: .btn .btn--primary}
 
 ---
 
-## Research
+## Data & Supplementary Materials
 
-At CDFM, we focus on various research areas including:
-
-- **Phase Stability Prediction**
-- **Electronic Structure Calculation**
-- **Machine Learning for Materials Science**
-- **Time-domain DFT for Excited Charge Carrier Dynamics**
-
-
----
-
-## Contact
-
-For inquiries, you can reach out to us via email at [email@example.com].
-
-[GitHub](https://github.com/CDFM-IITD) | [LinkedIn](https://www.linkedin.com/)
+Project pages will appear here. Check back soon.

@@ -17,25 +17,26 @@ header:
   logo: "/assets/images/cdfm-logo.png" # Update with your image path
 
 # Site Author
-# Site Author
 author:
-  name: "PI: Dibyajyoti Ghosh"
-  bio: "Your Bio"
-  avatar: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
-  location: "Localhost, GitHub"
+  name: "Dr. Dibyajyoti Ghosh"
+  bio: "Assistant Professor, Dept. of Material Science & Engineering and Dept. of Chemistry (joint), IIT Delhi. PI of the Computational Design of Functional Materials (CDFM) group."
+  location: "IIT Delhi, India"
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/"
+    - label: "Lab Website"
+      icon: "fas fa-fw fa-globe"
+      url: "https://sites.google.com/view/dibyajyoti-ghosh/home"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/"
+      url: "https://github.com/CDFM-IITD"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:dibyajyoti@iitd.ac.in"
 
 # Social Sharing
-og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
+og_image: "/assets/images/cdfm-logo.png"
 
 # Outputting
 permalink: /:categories/:title/
@@ -81,8 +82,8 @@ defaults:
         overlay_image: "/assets/images/materials.webp"
         overlay_filter: 0.3
         actions:
-          - label: "CDFM Group at IIT Delhi"
-            url: "https://github.com/sponsors/"
+          - label: "Main Lab Site"
+            url: "https://sites.google.com/view/dibyajyoti-ghosh/home"
 
 category_archive:
   type: liquid
