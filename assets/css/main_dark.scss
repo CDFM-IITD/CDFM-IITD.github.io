@@ -57,3 +57,14 @@ a:active {
   font-size: 1.5rem;
   line-height: 1.2;
 }
+
+.masthead {
+  display: none !important;
+}
+
+.page__content p,
+.page__content li,
+.notice--info,
+.notice--warning {
+  text-align: justify;
+}

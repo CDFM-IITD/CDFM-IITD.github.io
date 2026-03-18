@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: splash
 permalink: /
 title: "CDFM · Data & Supplementary Materials"
-author_profile: false
-classes: wide
 header:
   overlay_image: "/assets/images/materials.webp"
   overlay_filter: 0.55
@@ -11,20 +9,11 @@ header:
   actions:
     - label: "Main Lab Website &rarr;"
       url: "https://sites.google.com/view/dibyajyoti-ghosh/home"
-feature_row:
-  - title: "Emerging Photoactive Materials"
-    excerpt: "Halide perovskites and related systems for optoelectronics and photocatalysis."
-  - title: "High-throughput & Machine Learning"
-    excerpt: "AI-guided computational screening and in silico functional materials discovery."
-  - title: "Nanocrystals & 2D Materials"
-    excerpt: "Optical properties of nanocrystals, LEDs, quantum photonics, spintronics, and nanoelectronics."
 ---
 
 <div class="notice--info" role="note">
   <strong>About this site:</strong> This repository hosts <strong>supplementary data, simulation outputs, input files, and supporting materials</strong> for publications from the CDFM group. For the main lab website — including group members, news, and full publication list — visit <a href="https://sites.google.com/view/dibyajyoti-ghosh/home">sites.google.com/view/dibyajyoti-ghosh</a>.
 </div>
-
-{% include feature_row %}
 
 ---
 

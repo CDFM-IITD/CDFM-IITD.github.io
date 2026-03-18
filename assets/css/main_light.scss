@@ -18,3 +18,14 @@ a:active {
 .archive__item-teaser {
     margin-bottom: 80px;
 }
+
+.masthead {
+  display: none !important;
+}
+
+.page__content p,
+.page__content li,
+.notice--info,
+.notice--warning {
+  text-align: justify;
+}
