@@ -17,18 +17,12 @@ header:
 
 ---
 
-## Supplementary Data & Simulation Outputs
+## Projects
 {: #projects}
 
-Each project page below provides downloadable data associated with a publication: DFT input/output files, processed datasets, figures, and any additional supporting information.
-
-<div class="notice--warning" role="note">
-  <strong>Coming soon:</strong> Project data pages are being prepared and will be linked here.
-</div>
-
-| Project | Publication | Year | Data |
-|---|---|:---:|:---:|
-| *(to be added)* | — | — | — |
+| Project | Description | Link |
+|---|---|:---:|
+| **AI4Mat Demo** | AI-driven materials discovery — crystal structures, DOS, band structure, and AIMD trajectories | [View &rarr;](/ai4mat/) |
 
 ---
 
