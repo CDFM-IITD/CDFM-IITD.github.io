@@ -3,7 +3,7 @@ layout: splash
 title: "AI4Mat Demo"
 permalink: /ai4mat/
 header:
-  overlay_image: "/assets/images/materials.webp"
+  overlay_image: "/assets/images/AI4Mat_BG.jpg"
   overlay_filter: 0.5
   caption: "AI-driven Materials Discovery &nbsp;·&nbsp; CDFM @ IIT Delhi"
   actions:
