@@ -1,27 +1,43 @@
-# GitHub Page Template
+# CDFM @ IIT Delhi — Data & Supplementary Materials
 
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
+[![Minimal Mistakes](https://img.shields.io/badge/theme-Minimal%20Mistakes-blue.svg)](https://github.com/mmistakes/minimal-mistakes)
 [![LICENSE](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
-A simple, clean, and responsive theme for your website or blog.
+This repository hosts **supplementary data, simulation outputs, input files, and supporting materials** for publications from the [Computational Design of Functional Materials (CDFM)](https://sites.google.com/view/dibyajyoti-ghosh/home) group at IIT Delhi.
 
-If you like this template, give it a star ⭐️
+**Live site:** [https://cdfm-iitd.github.io](https://cdfm-iitd.github.io)
 
-Site demo: https://monsieurborges.github.io/site-template
+---
 
-[![Site-Template](assets/images/site-template.jpg)](https://monsieurborges.github.io/site-template)
+## Projects
 
-Built on [Jekyll](https://jekyllrb.com) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) ❤️
+| Project | Description |
+|---|---|
+| [AI4Mat Demo](/ai4mat/) | AI-driven materials discovery — crystal structures, DOS, band structure, and AIMD trajectories |
 
-## ✅ Getting Started
+---
 
-**[Fork this template](https://github.com/monsieurborges/site-template/fork)**, then rename the repo to `USERNAME.github.io`, replacing `USERNAME` with your GitHub username.
+## Repository Structure
 
-## 📚 Documentation
+```
+_ai4mat/          # Collection: one file per structure in AI4Mat Demo
+_pages/           # Site pages (index, AI4Mat listing, etc.)
+_includes/        # Custom Jekyll includes (masthead, etc.)
+_data/            # Navigation and other data files
+assets/           # Images and static assets
+_config.yml       # Jekyll site configuration
+```
 
-For detailed instructions on how to configure, customize, add content, and more check [Minimal Mistakes Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+## Adding a New Structure (AI4Mat)
 
-For more details on how to set things up check [Getting started with GitHub Pages](https://docs.github.com/pages).
+1. Copy `_ai4mat/template.md` and rename it (e.g. `perovskite-abx3.md`)
+2. Set `published: true` and fill in the front matter fields
+3. Add plot files under `assets/ai4mat/<structure-name>/`
+4. Commit and push — the structure will appear automatically on the listing page
 
-Want to learn more about Jekyll? Check out this [tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+## Contact
+
+For questions about the data or methods, contact [dibyajyoti@iitd.ac.in](mailto:dibyajyoti@iitd.ac.in).
+
+Built on [Jekyll](https://jekyllrb.com) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).

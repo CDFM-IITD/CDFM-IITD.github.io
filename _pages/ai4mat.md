@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: splash
 title: "AI4Mat Demo"
 permalink: /ai4mat/
-classes: wide
-author_profile: false
 header:
   overlay_image: "/assets/images/materials.webp"
   overlay_filter: 0.5
