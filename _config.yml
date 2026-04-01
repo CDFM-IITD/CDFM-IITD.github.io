@@ -95,14 +95,14 @@ defaults:
       path: ""
       type: ai4mat
     values:
-      layout: single
-      classes: wide
+      layout: ai4mat
       author_profile: false
       toc: true
+      toc_sticky: true
       toc_label: "On this page"
       toc_icon: "layer-group"
       header:
-        overlay_image: "/assets/images/materials.webp"
+        overlay_image: "/assets/images/AI4Mat_BG.jpg"
         overlay_filter: 0.5
         actions:
           - label: "&#8592; All Structures"

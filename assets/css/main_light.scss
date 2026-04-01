@@ -29,3 +29,39 @@ a:active {
 .notice--warning {
   text-align: justify;
 }
+
+/* ── AI4Mat material pages: left-side TOC ───────────────────────────── */
+.ai4mat-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  padding: 1.5em 2.5em;
+}
+
+.sidebar__left {
+  flex: 0 0 220px;
+  min-width: 180px;
+  max-width: 240px;
+  margin-right: 2em;
+  margin-left: 0;
+  order: -1;
+}
+
+.sidebar__left.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2em;
+  max-height: calc(100vh - 4em);
+  overflow-y: auto;
+}
+
+.ai4mat-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* On small screens collapse sidebar above content */
+@media (max-width: 768px) {
+  .ai4mat-content { flex-direction: column; }
+  .sidebar__left  { max-width: 100%; width: 100%; margin-right: 0; }
+}
