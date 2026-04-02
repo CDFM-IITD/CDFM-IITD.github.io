@@ -27,13 +27,11 @@ Each entry below is an individual material predicted or screened by the AI4Mat w
   <div style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 1.2rem; background: #fafafa;">
     <h3 style="margin-top: 0;"><a href="{{ s.url | relative_url }}">{{ s.title }}</a></h3>
     {% if s.formula %}<p style="margin: 0.2rem 0; font-family: monospace; font-size: 0.95em; color: #555;">{{ s.formula }}</p>{% endif %}
-    {% if s.excerpt %}<p style="margin: 0.5rem 0 0.8rem; font-size: 0.9em;">{{ s.excerpt }}</p>{% endif %}
     <div style="font-size: 0.82em; color: #666;">
       {% if s.has_dos %}<span style="margin-right: 0.6rem;">&#10003; DOS</span>{% endif %}
       {% if s.has_band %}<span style="margin-right: 0.6rem;">&#10003; Band</span>{% endif %}
       {% if s.has_aimd %}<span>&#10003; AIMD</span>{% endif %}
     </div>
-    <a href="{{ s.url | relative_url }}" style="display: inline-block; margin-top: 0.8rem; font-size: 0.85em;">View details &rarr;</a>
   </div>
 {% endfor %}
 </div>
