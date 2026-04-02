@@ -1,0 +1,61 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+  <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle light/dark mode">
+    <i class="fas fa-moon" id="theme-toggle-icon"></i>
+  </button>
+</div>
+
+<style>
+#theme-toggle-btn {
+  background: none;
+  border: 1px solid rgba(128,128,128,0.4);
+  border-radius: 50%;
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  font-size: 0.75rem;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+}
+#theme-toggle-btn:hover { opacity: 1; }
+</style>
+
+<script>
+(function () {
+  function syncFooterIcon() {
+    var stored = sessionStorage.getItem("theme");
+    var dark = stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    var icon = document.getElementById("theme-toggle-icon");
+    if (icon) icon.className = dark ? "fas fa-sun" : "fas fa-moon";
+  }
+  syncFooterIcon();
+  var link = document.getElementById("themeCSS");
+  if (link) new MutationObserver(function () { syncFooterIcon(); }).observe(link, { attributes: true });
+})();
+</script>
