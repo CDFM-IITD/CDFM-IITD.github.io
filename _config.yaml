@@ -1,0 +1,81 @@
+# site properties and page defaults
+title: CDFM
+subtitle: Computational Design of Functional Materials · IIT Delhi
+description: The Computational Design of Functional Materials (CDFM) group at IIT Delhi uses first-principles simulations, quantum dynamics, and machine learning to understand and design materials for optoelectronics, photocatalysis, and spintronics.
+header: images/header.svg
+footer: images/header.svg
+proofer: false
+
+# site social media and other links
+links:
+  email: dibyajyoti@iitd.ac.in
+  orcid: 0000-0002-3640-7537
+  google-scholar: WnMZsO4AAAAJ
+  twitter: dibyajyoti1988
+  linkedin: dibyajyoti-ghosh-015012b2
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+  # generate page for each AI4Mat demo structure
+  ai4mat:
+    output: true
+    permalink: /ai4mat/:name/
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js

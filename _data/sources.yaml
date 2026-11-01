@@ -1,0 +1,451 @@
+# publications of the CDFM group, newest first
+# add a new paper by adding "- id: doi:<DOI>" at the top; citation details are filled in automatically
+# migrated from https://sites.google.com/view/dibyajyoti-ghosh/publications
+
+- id: doi:10.1038/s43246-026-01406-4
+  type: paper
+
+- id: doi:10.1021/acs.nanolett.6c02979
+  type: paper
+
+- id: doi:10.1021/acsmaterialslett.6c00847
+  type: paper
+
+- id: doi:10.1021/acsami.6c15458
+  type: paper
+
+- id: doi:10.1039/D6TA03093A
+  type: paper
+
+- id: doi:10.1021/acsaem.6c02409
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.6c02185
+  type: paper
+
+- id: doi:10.1002/aenm.71597
+  type: paper
+
+- id: doi:10.1039/D6NR02579J
+  type: paper
+
+- id: doi:10.1021/acs.energyfuels.6c03090
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.6c01097
+  type: paper
+
+- id: doi:10.1002/smll.73983
+  type: paper
+
+- id: doi:10.1039/D6NR00495D
+  type: paper
+
+- id: doi:10.1039/D6EL00044D
+  type: paper
+
+- id: doi:10.1039/D6TA01886F
+  type: paper
+
+- title: "Screening Ligands for Passivating Surface Defects in CsPbCl3 Nanocrystals for Enhanced Blue Light Emission: In-Silico Approach"
+  authors:
+    - Kushal Samanta
+    - Jyoti Bharti
+    - Arun Mannodi-Kanakkithodi
+    - Dibyajyoti Ghosh
+  publisher: Chemistry of Materials
+  date: 2026-01-01
+  type: paper
+
+- id: doi:10.1016/j.compositesb.2026.113552
+  type: paper
+
+- id: doi:10.1021/acscatal.5c08006
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.6c00132
+  type: paper
+
+- id: doi:10.1039/D5TC03822G
+  type: paper
+
+- id: doi:10.1021/acsnano.5c22369
+  type: paper
+
+- id: doi:10.1103/r77p-wl3l
+  type: paper
+
+- id: doi:10.1039/D5TC03508B
+  type: paper
+
+- id: doi:10.1002/advs.202516088
+  type: paper
+
+- id: doi:10.1039/D5TA08478D
+  type: paper
+
+- id: doi:10.1039/D5TA08125D
+  type: paper
+
+- id: doi:10.1002/smll.202513123
+  type: paper
+
+- id: doi:10.1016/j.jssc.2025.125740
+  type: paper
+
+- id: doi:10.1021/acscatal.5c06373
+  type: paper
+
+- id: doi:10.1002/adom.202501203
+  type: paper
+
+- id: doi:10.1002/smll.202507018
+  type: paper
+
+- id: doi:10.1039/D5TA06531C
+  type: paper
+
+- id: doi:10.1021/acs.nanolett.5c04484
+  type: paper
+
+- id: doi:10.1021/acsaem.5c02732
+  type: paper
+
+- id: doi:10.1021/acsmaterialslett.5c01013
+  type: paper
+
+- id: doi:10.1002/adfm.202520764
+  type: paper
+
+- id: doi:10.1002/adfm.202516045
+  type: paper
+
+- id: doi:10.1002/anie.202510774
+  type: paper
+
+- id: doi:10.1039/D5TA04649A
+  type: paper
+
+- id: doi:10.1021/acs.cgd.5c01068
+  type: paper
+
+- id: doi:10.1039/D5EY00169B
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.5c01315
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.5c04113
+  type: paper
+
+- id: doi:10.1021/acscatal.5c03677
+  type: paper
+
+- id: doi:10.1016/j.mtla.2025.102437
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.5c01174
+  type: paper
+
+- id: doi:10.1021/acsami.5c02222
+  type: paper
+
+- id: doi:10.1016/j.scriptamat.2025.116695
+  type: paper
+
+- id: doi:10.1021/acsmaterialslett.5c00001
+  type: paper
+
+- id: doi:10.1021/acs.nanolett.5c01223
+  type: paper
+
+- id: doi:10.1002/adfm.202501546
+  type: paper
+
+- id: doi:10.1039/D4MH01532K
+  type: paper
+
+- id: doi:10.1002/smll.202409961
+  type: paper
+
+- id: doi:10.1039/D4TA08867K
+  type: paper
+
+- id: doi:10.1021/jacs.4c14877
+  type: paper
+
+- id: doi:10.1039/D4MH01425A
+  type: paper
+
+- id: doi:10.1021/acssuschemeng.4c02712
+  type: paper
+
+- id: doi:10.1039/D4TA05379F
+  type: paper
+
+- id: doi:10.1039/D4NR01803F
+  type: paper
+
+- id: doi:10.1039/D4TA05985A
+  type: paper
+
+- id: doi:10.1021/acsami.4c09937
+  type: paper
+
+- id: doi:10.1021/acsaem.4c02101
+  type: paper
+
+- id: doi:10.1002/adfm.202411464
+  type: paper
+
+- id: doi:10.1021/acsnano.4c05638
+  type: paper
+
+- id: doi:10.1021/acsnano.4c08208
+  type: paper
+
+- id: doi:10.1021/acsaem.4c01063
+  type: paper
+
+- id: doi:10.1002/aenm.202402087
+  type: paper
+
+- id: doi:10.1021/acsami.4c07301
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.4c00370
+  type: paper
+
+- id: doi:10.1021/acsanm.4c00495
+  type: paper
+
+- id: doi:10.1021/acs.inorgchem.3c04062
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.4c00290
+  type: paper
+
+- id: doi:10.1039/D3TA07414E
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.3c06329
+  type: paper
+
+- id: doi:10.1039/D3TA06427A
+  type: paper
+
+- id: doi:10.1039/D3TA05848D
+  type: paper
+
+- id: doi:10.1039/D3EE03772J
+  type: paper
+
+- id: doi:10.1039/D3MH01078C
+  type: paper
+
+- id: doi:10.1002/solr.202300817
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.3c02249
+  type: paper
+
+- id: doi:10.1039/D3NR04342H
+  type: paper
+
+- id: doi:10.1021/acsami.3c04190
+  type: paper
+
+- id: doi:10.1021/acs.inorgchem.3c00648
+  type: paper
+
+- id: doi:10.1021/acsmaterialslett.2c01104
+  type: paper
+
+- id: doi:10.1039/D2NR06785D
+  type: paper
+
+- id: doi:10.1039/D3TA00149K
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.2c08508
+  type: paper
+
+- id: doi:10.1038/s41563-022-01448-2
+  type: paper
+
+- id: doi:10.1039/d3tc00331k
+  type: paper
+
+- id: doi:10.1039/D2QO01932A
+  type: paper
+
+- id: doi:10.1021/acs.nanolett.2c03403
+  type: paper
+
+- id: doi:10.1016/j.nanoen.2022.108136
+  type: paper
+
+- id: doi:10.1016/j.est.2022.106102
+  type: paper
+
+- id: doi:10.1021/acsaem.2c02326
+  type: paper
+
+- id: doi:10.1021/acs.cgd.2c00791
+  type: paper
+
+- id: doi:10.1021/acsenergylett.2c02054
+  type: paper
+
+- id: doi:10.1039/D2TC01413K
+  type: paper
+
+- id: doi:10.1016/j.jcat.2022.03.009
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.2c00067
+  type: paper
+
+- id: doi:10.1021/acsanm.2c00233
+  type: paper
+
+- id: doi:10.1016/j.chempr.2022.01.008
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.1c04060
+  type: paper
+
+- id: doi:10.1039/D1TA07983B
+  type: paper
+
+- id: doi:10.1063/5.0066087
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.1c02514
+  type: paper
+
+- id: doi:10.1021/acsenergylett.1c01526
+  type: paper
+
+- id: doi:10.1007/s10853-021-06294-2
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.1c01412
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.0c10925
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.0c03317
+  type: paper
+
+- id: doi:10.1039/D1TC01092A
+  type: paper
+
+- id: doi:10.1063/5.0021849
+  type: paper
+
+- id: doi:10.1021/acsaelm.0c00554
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.0c02243
+  type: paper
+
+- id: doi:10.1021/acsami.0c11805
+  type: paper
+
+- id: doi:10.1039/D0TA07205B
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.0c00018
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.0c00594
+  type: paper
+
+- id: doi:10.1021/acsami.0c00561
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.9b04244
+  type: paper
+
+- id: doi:10.1016/b978-0-12-814727-6.00010-4
+  type: paper
+
+- id: doi:10.1021/acs.nanolett.9b03427
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.9b02020
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.9b01794
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.9b00648
+  type: paper
+
+- id: doi:10.1039/C9EE00476A
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.8b01851
+  type: paper
+
+- id: doi:10.1021/acs.jpclett.8b00044
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.8b00480
+  type: paper
+
+- id: doi:10.1021/acs.chemmater.8b00862
+  type: paper
+
+- id: doi:10.1039/C7CP07165E
+  type: paper
+
+- id: doi:10.1021/acsenergylett.7b00729
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.6b11520
+  type: paper
+
+- id: doi:10.1039/C7TA07545F
+  type: paper
+
+- id: doi:10.1039/C7CP04980C
+  type: paper
+
+- id: doi:10.1039/C6CP06247D
+  type: paper
+
+- id: doi:10.1016/j.poly.2016.05.011
+  type: paper
+
+- id: doi:10.1021/acs.jpcc.5b11227
+  type: paper
+
+- id: doi:10.1103/PhysRevB.92.195136
+  type: paper
+
+- id: doi:10.1063/1.4921165
+  type: paper
+
+- id: doi:10.1021/jp503367v
+  type: paper
+
+- id: doi:10.1021/jp5039128
+  type: paper
+
+- id: doi:10.1039/C4TC01385A
+  type: paper
+
+- id: doi:10.1039/C3TC31784F
+  type: paper
+
+- id: doi:10.1021/jp407851z
+  type: paper
+
+- id: doi:10.1021/jp304592h
+  type: paper
+
+- id: doi:10.1039/C1CP22104C
+  type: paper
