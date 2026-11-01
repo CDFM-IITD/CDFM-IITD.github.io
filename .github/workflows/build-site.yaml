@@ -10,6 +10,8 @@ on:
 
 env:
   PREVIEWS_FOLDER: preview
+  # posix-spawn (via jekyll-last-modified-at) fails to compile on newer gcc
+  BUNDLE_BUILD__POSIX___SPAWN: "--with-cflags=-Wno-error=incompatible-pointer-types"
 
 permissions:
   contents: write
